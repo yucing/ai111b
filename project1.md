@@ -8,28 +8,30 @@
 2. 躲避怪物、懸崖
 3. 到達終點
 
+![](https://github.com/yucing/ai111b/blob/main/picture/1.gif)
+
 # 解析
 * 將畫面轉換成 16*16 pixel section的圖
 
-![](https://github.com/yucing/ai111b/picture/1.png)
+![](https://github.com/yucing/ai111b/blob/main/picture/1.png)
 
 * 轉換完的圖為 15 * 16 (實際上為 13 * 16, 2行為顯示分數及時間)
 
-![](https://github.com/yucing/ai111b/picture/2.png)
+![](https://github.com/yucing/ai111b/blob/main/picture/1.png)
 
 * 下圖粉紅色邊框框起來的位置，為AI判斷輸入的位置
 
-![](https://github.com/yucing/ai111b/picture/3.png)
+![](https://github.com/yucing/ai111b/blob/main/picture/1.png)
 
 * 最後得出來的公式
 
-![](https://github.com/yucing/ai111b/picture/4.png)
+![](https://github.com/yucing/ai111b/blob/main/picture/1.png)
 
 # 遇到的問題
 1. 剛開始，Mario會不知要怎麼動，因此採用 random 去操作
 2. 當粉紅色區域沒有變更時，可能會困住
 
-![](https://github.com/yucing/ai111b/picture/5.png)
+![](https://github.com/yucing/ai111b/blob/main/picture/1.png)
 
 # 訓練結果
 ## During the three weeks of trainning:
