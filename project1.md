@@ -17,29 +17,28 @@
 
 * 轉換完的圖為 15 * 16 (實際上為 13 * 16, 2行為顯示分數及時間)
 
-![](https://github.com/yucing/ai111b/blob/main/picture/1.png)
+![](https://github.com/yucing/ai111b/blob/main/picture/2.png)
 
 * 下圖粉紅色邊框框起來的位置，為AI判斷輸入的位置
 
-![](https://github.com/yucing/ai111b/blob/main/picture/1.png)
+![](https://github.com/yucing/ai111b/blob/main/picture/3.png)
 
 * 最後得出來的公式
 
-![](https://github.com/yucing/ai111b/blob/main/picture/1.png)
+![](https://github.com/yucing/ai111b/blob/main/picture/4.png)
 
 # 遇到的問題
 1. 剛開始，Mario會不知要怎麼動，因此採用 random 去操作
 2. 當粉紅色區域沒有變更時，可能會困住
 
-![](https://github.com/yucing/ai111b/blob/main/picture/1.png)
+![](https://github.com/yucing/ai111b/blob/main/picture/5.png)
 
 # 訓練結果
 ## During the three weeks of trainning:
 1. A total of 12048830 Marios were killed
 2. These AI had a total playtime of just over 5 years
 3. A combined 1422209 Marios beat a level
-## 通關
-1. 再通關第一次之後，進入下一關，跳過障礙物的延遲變小
+4. 通關第一次之後，進入下一關，跳過障礙物的延遲變小
 
 # 程式碼
 ## 馬力歐
