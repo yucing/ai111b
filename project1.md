@@ -47,9 +47,11 @@
 # Result
 ## [GIF來源](https://github.com/Chrispresso/SuperMarioBros-AI)
 ## 1-1
+
 ![](https://github.com/yucing/ai111b/blob/main/picture/1_1.gif)
 
 ## 4-1
+
 ![](https://github.com/yucing/ai111b/blob/main/picture/4_1.gif)
 
 # 程式碼
