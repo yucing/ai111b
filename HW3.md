@@ -1,5 +1,6 @@
 # 狼、羊、菜過河問題
-## 程式碼由Chat GPT產生，並進行修改
+## 程式碼由老師的js程式與Chat GPT產生，並進行修改
+## [原程式碼](https://github.com/ccc111b/py2cs/blob/master/03-%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7/02-%E6%90%9C%E5%B0%8B/Q2-river/%E7%BF%92%E9%A1%8C%EF%BC%9A%E3%80%8A%E7%8B%BC%E3%80%81%E7%BE%8A%E3%80%81%E7%94%98%E8%97%8D%E8%8F%9C%E3%80%8B%E9%81%8E%E6%B2%B3%E7%9A%84%E5%95%8F%E9%A1%8C.md)
 ```py
 objs = ["人", "狼", "羊", "菜"]
 state = [0, 0, 0, 0]
