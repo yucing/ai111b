@@ -1,7 +1,7 @@
 # 人工智慧 Artificial intelligence (AI)
 * 由人製造出來的機器所表現出來的智慧
 * 透過電腦程式來呈現人類智慧的技術
-# 目前人工智慧分成幾個子領域
+# 目前人工智慧分成幾個子領域，簡單舉幾個例子
 ## 推理和解決問題
 * 早期人工智慧使用模仿人類逐步推理
 > * Ex: 棋盤遊戲、邏輯推理
@@ -33,3 +33,47 @@
 * 讓電腦懂人類的語言
 * 自然語言生成系統把電腦據轉化為自然語言
 * 自然語言理解系統把自然語言轉化為電腦一處理的方式
+
+# 自然語言處理
+## 以下為自然語言處理的範例
+* 智慧助理
+* 電子郵件篩選器
+* 搜尋結果
+* 預測文字
+* 語言翻譯
+* 數位通話
+* 資料分析
+
+# 以下為ChatGPT所產生的簡單智慧推薦系統
+* 無進行修改
+```py
+import openai
+
+# 設置 OpenAI API 密鑰
+openai.api_key = '你的API密鑰'
+
+# 定義用戶的輸入
+user_input = "我正在尋找一本關於科幻的書籍。"
+
+# 使用 OpenAI GPT-3 模型生成推薦文本
+response = openai.Completion.create(
+  engine="davinci",
+  prompt=user_input,
+  max_tokens=100,
+  n=5,  # 生成多個候選推薦文本
+  stop=None,
+  temperature=0.7
+)
+
+# 提取推薦文本
+recommendations = [choice['text'].strip() for choice in response['choices']]
+
+# 輸出推薦結果
+print("推薦的文本:")
+for index, recommendation in enumerate(recommendations):
+    print(f"推薦 {index+1}: {recommendation}")
+```
+
+# 資料來源
+* [人工智慧](https://zh.wikipedia.org/zh-tw/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD)
+* [自然語言處理](https://www.tableau.com/zh-tw/learn/articles/natural-language-processing-examples)
